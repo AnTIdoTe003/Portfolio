@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Josefin+Sans&family=Montserrat&family=Poppins&display=swap');
+
+// font-family: 'Babylonica', cursive;
+// font-family: 'Josefin Sans', sans-serif;
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Poppins', sans-serif;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+
+.home_wrapper{
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(at right center, rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0));
+}
+
+
+
+.navbar_content{
+    display:grid;
+    grid-template-columns: 10rem 1fr 3fr 3fr 10rem;
+    align-items: center;
+    padding: 1rem 5rem;
+}
+
+.navbar_content .nav_menu{
+    grid-column: 2/5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:5rem;
+    align-items: center;
+    padding: 0 10rem;
+}
+
+.nav_menu button{
+    background:transparent;
+    color: white;
+    outline: none;
+    border:none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.nav_socials{
+    grid-column: 5/6;
+    display: flex;
+    align-items: center;
+    img{
+        width: 2.5rem;
+    }
+}
