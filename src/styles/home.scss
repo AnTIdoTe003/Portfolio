@@ -21,13 +21,26 @@ body{
     background: radial-gradient(at right center, rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0));
 }
 
+.home_wrapper::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: url(../assets/grid_bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.15;
+}
+
 
 
 .navbar_content{
     display:grid;
     grid-template-columns: 10rem 1fr 3fr 3fr 10rem;
     align-items: center;
-    padding: 1rem 5rem;
+    padding: 2rem 5rem;
 }
 
 .navbar_content .nav_menu{
@@ -56,5 +69,54 @@ body{
     align-items: center;
     img{
         width: 2.5rem;
+    }
+}
+
+.hero_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin-top: 10rem;
+}
+.hero_content .hero_text{
+    width: 50%;
+}
+
+.hero_text p{
+    padding-top: 2rem;
+    font-size: 2.8rem;
+    opacity: 0.6;
+}
+
+.type_animation{
+    font-size: 3rem;
+}
+
+.hero_buttons{
+   display: flex;
+   flex-direction: row;
+   gap:2rem;
+   padding-top: 2rem;
+    button{
+        width: 8rem;
+        height: 3rem;
+        font-size: 1rem;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    #contact{
+        background-color: rgb(17, 24, 39);
+        border-color: white;
+        border-radius: 0.3rem;
+    }
+    #resume{
+        backdrop-filter: blur(5px);
+        background-color: transparent;
+        border-color: white;
+         border-radius: 0.3rem;
     }
 }
