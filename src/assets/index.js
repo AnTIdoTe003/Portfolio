@@ -31,6 +31,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import hero from './hero.png'
 export {
   logo,
   backend,
@@ -62,4 +63,5 @@ export {
   tripguide,
   saffronstays,
   myways,
+  hero
 };

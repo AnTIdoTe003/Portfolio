@@ -4,6 +4,15 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+      keyframes: {
+        'custom-bounce': {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-20px)' },
+        },
+      },
+      animation: {
+        'custom-bounce': 'custom-bounce 2s ease-in-out infinite', 
+      },
       colors: {
         primary: "#050816",
         secondary: "#aaa6c3",

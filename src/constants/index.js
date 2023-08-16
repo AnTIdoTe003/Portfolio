@@ -160,6 +160,7 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/AnTIdoTe003/coinhub",
+    project_link:"https://coinhub-db.vercel.app/"
   },
   {
     name: "theEngineerGuy",
@@ -185,6 +186,7 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/AnTIdoTe003/blogging-website",
+    project_link:"https://theengineerguy.vercel.app/"
   },
   {
     name: "Apna Dukan",
@@ -206,6 +208,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/AnTIdoTe003/ApnaDukan-Frontend",
+    project_link:"https://apnadukan.vercel.app/"
   },
 ];
 

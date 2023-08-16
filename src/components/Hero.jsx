@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
-
+import { hero } from "../assets";
 const Hero = () => {
   return (
-    <section className={`relative w-full h-screen mx-auto`}>
+    <section className={`relative w-full h-screen mx-auto flex flex-col items-center justify-center`}>
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
@@ -20,12 +20,14 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop user <br className='sm:block hidden' />
-            interfaces and web applications
+            interfaces and full-stack web applications
           </p>
         </div>
       </div>
 
-      <ComputersCanvas />
+      <div className="mt-[200px] animate-custom-bounce">
+        <img className="w-full h-full xl:w-[500px]" src={hero}  alt="" />
+      </div>
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
