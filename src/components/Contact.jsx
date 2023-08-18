@@ -7,6 +7,9 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+import axios from "axios";
+import toast, { Toaster } from 'react-hot-toast';
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -27,40 +30,25 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
 
-    emailjs
-      .send(
-        "service_e0dakqe",
-        "template_c6qkr5g",
-        {
-          from_name: form.name,
-          to_name: "Debmalya Biswas",
-          from_email: form.email,
-          to_email: "viperbale.db@gmail.com",
-          message: form.message,
-        },
-        'sRiF8zY4QG7v1XVKQ'
-      )
-      .then(
-        () => {
-          setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
-        },
-        (error) => {
-          setLoading(false);
-          console.error(error);
-
-          alert("Ahh, something went wrong. Please try again.");
-        }
-      );
+    const { data } = await axios.post(
+      "https://nodemailer-backend-portfolio.vercel.app/api/v1/mail/send-message",
+      form
+    );
+    if (data.success) {
+      setLoading(false);
+      toast.success(data.message,{
+        duration:2000
+      })
+      setForm({
+        name:"",
+        email:"",
+        message:""
+      })
+    }
   };
 
   return (
