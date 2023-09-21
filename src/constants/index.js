@@ -119,6 +119,8 @@ const experiences = [
       "Fixed the invoice API integration.",
       "Fixed several other bugs and created some fresh UI from Figma.",
       "Worked on the Web-Checkin feature.",
+      "Worked on creating a feature known as Pre-Checkin"
+      "Created APIs using GoLang",
     ],
   },
   {
