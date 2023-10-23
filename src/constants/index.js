@@ -124,6 +124,17 @@ const experiences = [
     ],
   },
   {
+    title:"Freelance FrontEnd Developer Intern",
+    company_name:"ProdEven",
+    icon:null,
+    iconBg: "#383E56",
+    date: "September 2023 - Present",
+    points: [
+      "Creating a e-commerce web application from scratch",
+      
+    ],
+  },
+  {
     title: "Technical Content Write Intern",
     company_name: "MyWays",
     icon: myways,
