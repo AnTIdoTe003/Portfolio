@@ -135,6 +135,19 @@ const experiences = [
     ],
   },
   {
+    title:"FrontEnd Developer Intern",
+    company_name:"MadAlgos",
+    icon:null,
+    iconBg: "#383E56",
+    date: "September 2023 - October 2023",
+    points: [
+      "Created fresh new UI for mentor profile page",
+      "Created fresh new UI for mentor listing page",
+      "Fixed several UI related bugs"
+      
+    ],
+  },
+  {
     title: "Technical Content Write Intern",
     company_name: "MyWays",
     icon: myways,
