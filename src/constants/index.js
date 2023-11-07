@@ -22,7 +22,8 @@ import {
   jobit,
   tripguide,
   saffronstays,
-  myways
+  myways,
+  madalgos
 } from "../assets";
 
 export const navLinks = [
@@ -137,7 +138,7 @@ const experiences = [
   {
     title:"FrontEnd Developer Intern",
     company_name:"MadAlgos",
-    icon:null,
+    icon:madalgos,
     iconBg: "#383E56",
     date: "September 2023 - October 2023",
     points: [

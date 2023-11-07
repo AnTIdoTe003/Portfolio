@@ -28,7 +28,7 @@ import myways from "./company/myways.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import madalgos from "./company/madalgos.png"
 import hero from './hero.png'
 export {
   logo,
@@ -59,5 +59,6 @@ export {
   tripguide,
   saffronstays,
   myways,
-  hero
+  hero,
+  madalgos
 };
