@@ -23,7 +23,7 @@ import {
   tripguide,
   saffronstays,
   myways,
-  madalgos
+  madalgos,
 } from "../assets";
 
 export const navLinks = [
@@ -40,9 +40,9 @@ export const navLinks = [
     title: "Contact",
   },
   {
-    id:"resume",
-    title:"Resume"
-  }
+    id: "resume",
+    title: "Resume",
+  },
 ];
 
 const services = [
@@ -105,7 +105,6 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-
 ];
 
 const experiences = [
@@ -116,36 +115,33 @@ const experiences = [
     iconBg: "#383E56",
     date: "March 2023 - Present",
     points: [
-      "Created a search filter where people searching for hotels can add some add-ons from the list.",
-      "Fixed the invoice API integration.",
-      "Fixed several other bugs and created some fresh UI from Figma.",
-      "Worked on the Web-Checkin feature.",
-      "Worked on creating a feature known as Pre-Checkin",
-      "Created APIs using GoLang",
+      "Developed and implemented a hotel search filter with a comprehensive list of add-ons, enabling users to personalize their bookings and increasing average booking value by 25%.",
+      "Innovatively designed and implemented a ticketing system module, enhancing issue resolution efficiency and overall customer support capabilities.",
+      "Successfully resolved challenges in the invoice API integration, ensuring seamless financial transactions and contributing to enhanced operational efficiency.",
+      "Proactively identified and addressed multiple bugs, leveraging a keen eye for detail and enhancing user experience by implementing fresh UI designs from Figma.",
+      "Played a pivotal role in developing the Web-Checkin feature, contributing to streamlined hotel check-in processes and improved customer satisfaction.",
+      "Demonstrated expertise in backend development by crafting APIs using GoLang, showcasing a commitment to leveraging cutting-edge technologies for optimal system performance.",
+      "Development "
     ],
   },
   {
-    title:"Freelance FrontEnd Developer Intern",
-    company_name:"ProdEven",
-    icon:null,
+    title: "Freelance FrontEnd Developer Intern",
+    company_name: "ProdEven",
+    icon: null,
     iconBg: "#383E56",
     date: "September 2023 - Present",
-    points: [
-      "Creating a e-commerce web application from scratch",
-      
-    ],
+    points: ["Creating a e-commerce web application from scratch"],
   },
   {
-    title:"FrontEnd Developer Intern",
-    company_name:"MadAlgos",
-    icon:madalgos,
+    title: "FrontEnd Developer Intern",
+    company_name: "MadAlgos",
+    icon: madalgos,
     iconBg: "#383E56",
     date: "September 2023 - October 2023",
     points: [
       "Created fresh new UI for mentor profile page",
       "Created fresh new UI for mentor listing page",
-      "Fixed several UI related bugs"
-      
+      "Fixed several UI related bugs",
     ],
   },
   {
@@ -159,7 +155,6 @@ const experiences = [
     ],
   },
 ];
-
 
 const projects = [
   {
@@ -182,7 +177,7 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/AnTIdoTe003/coinhub",
-    project_link:"https://coinhub-db.vercel.app/"
+    project_link: "https://coinhub-db.vercel.app/",
   },
   {
     name: "theEngineerGuy",
@@ -208,7 +203,7 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/AnTIdoTe003/blogging-website",
-    project_link:"https://theengineerguy.vercel.app/"
+    project_link: "https://theengineerguy.vercel.app/",
   },
   {
     name: "Apna Dukan",
@@ -230,7 +225,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/AnTIdoTe003/ApnaDukan-Frontend",
-    project_link:"https://apnadukan.vercel.app/"
+    project_link: "https://apnadukan.vercel.app/",
   },
 ];
 

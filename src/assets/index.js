@@ -29,7 +29,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import madalgos from "./company/madalgos.png"
-import hero from './hero.png'
+import hero from './hero.webp'
 export {
   logo,
   backend,
