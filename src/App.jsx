@@ -20,7 +20,7 @@ const App = () => {
         {/* Meta Tags */}
         <meta
           name="description"
-          content="Experienced frontend developer from Kolkata. Worked at 3 companies as an intern. Currently a frontend developer intern at Saffronstays. Freelance developer skilled in JavaScript, TypeScript, React, Next.js, SCSS, GoLang, HTML, CSS."
+          content="Hii, I am Debmalya Biswas Experienced frontend developer from Kolkata. Worked at 3 companies as an intern. Currently a frontend developer intern at Saffronstays. Freelance developer skilled in JavaScript, TypeScript, React, Next.js, SCSS, GoLang, HTML, CSS."
         />
         <meta
           name="keywords"
@@ -51,11 +51,11 @@ const App = () => {
         <meta property="twitter:title" content="Db | theEngineerGuy" />
         <meta
           property="twitter:description"
-          content="Experienced frontend developer from Kolkata. Worked at 3 companies as an intern. Currently a frontend developer intern at Saffronstays. Freelance developer skilled in JavaScript, TypeScript, React, Next.js, SCSS, GoLang, HTML, CSS."
+          content="Hii, I am Debmalya Biswas Experienced frontend developer from Kolkata. Worked at 3 companies as an intern. Currently a frontend developer intern at Saffronstays. Freelance developer skilled in JavaScript, TypeScript, React, Next.js, SCSS, GoLang, HTML, CSS."
         />
         <meta
           property="twitter:image"
-          content="https://yourwebsite.com/twitter-image.jpg"
+          content="https://i.ibb.co/wKRPv0g/screenshot.png"
         />{" "}
         {/* Replace with a link to your actual Twitter image */}
       </Helmet>
