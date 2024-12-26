@@ -37,7 +37,7 @@ const App = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://debmalya-portfolio.vercel.app/"
+          content="https://www.debmalya.in/"
         />{" "}
         {/* Replace with your actual website URL */}
         <meta
@@ -45,7 +45,7 @@ const App = () => {
           content="https://i.ibb.co/wKRPv0g/screenshot.png"
         />{" "}
         {/* Replace with a link to your actual Open Graph image */}
-        <meta property="og:image:alt" content="Db | theEngineerGuy" />
+        <meta property="og:image:alt" content="https://i.ibb.co/wKRPv0g/screenshot.png" />
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:title" content="Db | theEngineerGuy" />
