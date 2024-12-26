@@ -30,6 +30,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import madalgos from "./company/madalgos.png"
 import hero from './hero.webp'
+import golang from "../assets/tech/golang.svg"
 export {
   logo,
   backend,
@@ -60,5 +61,6 @@ export {
   saffronstays,
   myways,
   hero,
-  madalgos
+  madalgos,
+  golang
 };

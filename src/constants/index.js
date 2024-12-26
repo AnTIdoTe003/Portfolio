@@ -24,6 +24,7 @@ import {
   saffronstays,
   myways,
   madalgos,
+  golang,
 } from "../assets";
 
 export const navLinks = [
@@ -98,6 +99,10 @@ const technologies = [
     icon: mongodb,
   },
   {
+    name: "Golang",
+    icon: golang,
+  },
+  {
     name: "git",
     icon: git,
   },
@@ -109,11 +114,24 @@ const technologies = [
 
 const experiences = [
   {
+    title: "SDE-1 ",
+    company_name: "SaffronStays",
+    icon: saffronstays,
+    iconBg: "#383E56",
+    date: "July 2024 - Present",
+    points: [
+      "Developed a streamlined process for security deposit management, ensuring efficient application review, approval   notification, and deposit collection.",
+      "Developed a post-booking review platform to analyze user sentiment, enhancing customer insights and supporting data-driven decision-making",
+      "Migrated multiple APIs from Node.js to Go, improving performance, scalability, and maintainability.",
+      "Optimized the entire codebase by upgrading to the latest dependencies, resulting in enhanced efficiency and reduced technical debt.",
+    ],
+  },
+  {
     title: "FrontEnd Developer Intern",
     company_name: "SaffronStays",
     icon: saffronstays,
     iconBg: "#383E56",
-    date: "March 2023 - Present",
+    date: "March 2023 - Jun 2024",
     points: [
       "Developed and implemented a hotel search filter with a comprehensive list of add-ons, enabling users to personalize their bookings and increasing average booking value by 25%.",
       "Innovatively designed and implemented a ticketing system module, enhancing issue resolution efficiency and overall customer support capabilities.",
@@ -121,16 +139,19 @@ const experiences = [
       "Proactively identified and addressed multiple bugs, leveraging a keen eye for detail and enhancing user experience by implementing fresh UI designs from Figma.",
       "Played a pivotal role in developing the Web-Checkin feature, contributing to streamlined hotel check-in processes and improved customer satisfaction.",
       "Demonstrated expertise in backend development by crafting APIs using GoLang, showcasing a commitment to leveraging cutting-edge technologies for optimal system performance.",
-      "Development "
+      "Development ",
     ],
   },
   {
-    title: "Freelance FrontEnd Developer Intern",
+    title: "FrontEnd Developer Intern",
     company_name: "ProdEven",
     icon: null,
     iconBg: "#383E56",
-    date: "September 2023 - Present",
-    points: ["Creating a e-commerce web application from scratch"],
+    date: "September 2023 - July 2024",
+    points: [
+      "Developed a comprehensive e-commerce platform from inception to completion",
+      "Effectively addressed and resolved multiple bugs within a Government budget system, showcasing proficiency in problem-solving and technical expertise",
+    ],
   },
   {
     title: "FrontEnd Developer Intern",
