@@ -30,11 +30,11 @@ const App = () => {
           content="Debmalya Biswas, debmalya biswas, debmalya biswas frontend, debmalya biswas frontend developer, debmalya biswas saffronstays, debmalya biswas full stack, debmalya biswas sde, debmalya biswas react, debmalya biswas developer, frontend developer, full stack developer, React developer, Next.js developer, TypeScript developer, GoLang developer, JavaScript developer, SaffronStays developer, Kolkata developer, web developer portfolio"
         />
         <meta name="author" content="Debmalya Biswas" />
-        <link rel="canonical" href="https://debmalya-portfolio.vercel.app/" />
+        <link rel="canonical" href="https://www.debmalya.in/" />
 
         {/* Open Graph / Facebook Meta Tags */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://debmalya-portfolio.vercel.app/" />
+        <meta property="og:url" content="https://www.debmalya.in/" />
         <meta property="og:site_name" content="Debmalya Biswas Portfolio" />
         <meta property="og:title" content="Debmalya Biswas - Frontend & Full Stack Developer | SaffronStays SDE-1" />
         <meta
@@ -51,7 +51,7 @@ const App = () => {
 
         {/* Twitter Card Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:url" content="https://debmalya-portfolio.vercel.app/" />
+        <meta name="twitter:url" content="https://www.debmalya.in/" />
         <meta name="twitter:title" content="Debmalya Biswas - Frontend & Full Stack Developer | SaffronStays SDE-1" />
         <meta
           name="twitter:description"
