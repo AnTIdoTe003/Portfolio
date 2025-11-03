@@ -6,7 +6,7 @@ A modern, high-performance portfolio website built with React, Three.js, and opt
 
 ## 🚀 Live Demo
 
-[https://debmalya-portfolio.vercel.app/](https://debmalya-portfolio.vercel.app/)
+[https://www.debmalya.in/](https://www.debmalya.in/)
 
 ## 🛠️ Built With
 
@@ -175,7 +175,7 @@ This project is open source and available for personal use.
 ## 👤 Author
 
 **Debmalya Biswas**
-- Portfolio: [debmalya-portfolio.vercel.app](https://debmalya-portfolio.vercel.app/)
+- Portfolio: [www.debmalya.in](https://www.debmalya.in/)
 - GitHub: [@AnTIdoTe003](https://github.com/AnTIdoTe003)
 - LinkedIn: [Debmalya Biswas](https://www.linkedin.com/in/debmalya-biswas/)
 

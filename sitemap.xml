@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://debmalya-portfolio.vercel.app/</loc>
+    <loc>https://www.debmalya.in/</loc>
     <lastmod>2024-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://debmalya-portfolio.vercel.app/#about</loc>
+    <loc>https://www.debmalya.in/#about</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://debmalya-portfolio.vercel.app/#work</loc>
+    <loc>https://www.debmalya.in/#work</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://debmalya-portfolio.vercel.app/#contact</loc>
+    <loc>https://www.debmalya.in/#contact</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://debmalya-portfolio.vercel.app/resume.pdf</loc>
+    <loc>https://www.debmalya.in/resume.pdf</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
