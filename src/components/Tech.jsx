@@ -9,7 +9,13 @@ const Tech = () => {
     <div className='flex flex-row flex-wrap justify-center gap-10'>
       {technologies.map((technology) => (
         <div  className='w-28 h-28 bg-white p-2 rounded-lg' key={technology.name}>
-          <img src={technology.icon} alt="" />
+          <img
+            src={technology.icon}
+            alt={`${technology.name} - Technology used by Debmalya Biswas`}
+            loading="lazy"
+            width="112"
+            height="112"
+          />
         </div>
       ))}
     </div>

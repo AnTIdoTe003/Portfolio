@@ -114,16 +114,23 @@ const technologies = [
 
 const experiences = [
   {
-    title: "SDE-1 ",
+    title: "SDE-1",
     company_name: "SaffronStays",
     icon: saffronstays,
     iconBg: "#383E56",
     date: "July 2024 - Present",
     points: [
-      "Developed a streamlined process for security deposit management, ensuring efficient application review, approval   notification, and deposit collection.",
-      "Developed a post-booking review platform to analyze user sentiment, enhancing customer insights and supporting data-driven decision-making",
+      "Developed a streamlined process for security deposit management, ensuring efficient application review, approval notification, and deposit collection.",
+      "Developed a post-booking review platform to analyze user sentiment, enhancing customer insights and supporting data-driven decision-making.",
       "Migrated multiple APIs from Node.js to Go, improving performance, scalability, and maintainability.",
       "Optimized the entire codebase by upgrading to the latest dependencies, resulting in enhanced efficiency and reduced technical debt.",
+      "Developed and implemented a hotel search filter with a comprehensive list of add-ons, enabling users to personalize their bookings and increasing average booking value by 25%.",
+      "Innovatively designed and implemented a ticketing system module, enhancing issue resolution efficiency and overall customer support capabilities.",
+      "Successfully resolved challenges in the invoice API integration, ensuring seamless financial transactions and contributing to enhanced operational efficiency.",
+      "Proactively identified and addressed multiple bugs, leveraging a keen eye for detail and enhancing user experience by implementing fresh UI designs from Figma.",
+      "Played a pivotal role in developing the Web-Checkin feature, contributing to streamlined hotel check-in processes and improved customer satisfaction.",
+      "Demonstrated expertise in backend development by crafting APIs using GoLang, showcasing a commitment to leveraging cutting-edge technologies for optimal system performance.",
+      "Revitalized the home page with an innovative search flow, improving user engagement and conversion rates.",
     ],
   },
   {

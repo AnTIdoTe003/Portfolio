@@ -31,8 +31,11 @@ const ProjectCard = ({
         <div className='relative w-full h-[230px]'>
           <img
             src={image}
-            alt='project_image'
+            alt={`${name} - Project by Debmalya Biswas`}
             className='w-full h-full object-cover rounded-2xl'
+            loading="lazy"
+            width="360"
+            height="230"
           />
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
@@ -42,8 +45,9 @@ const ProjectCard = ({
             >
               <img
                 src={github}
-                alt='source code'
+                alt={`View ${name} source code on GitHub`}
                 className='w-1/2 h-1/2 object-contain'
+                loading="lazy"
               />
             </div>
           </div>

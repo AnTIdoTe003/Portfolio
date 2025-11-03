@@ -3,47 +3,143 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/logo.svg" />
-    <link rel="preload" as="image" type="image/gif" href="/src/assets/herobg.png"/>
+
+    <!-- Critical Resource Preloading for LCP Optimization -->
+    <link rel="preload" as="image" type="image/webp" href="/src/assets/hero.webp" fetchpriority="high" />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Db | theEngineerGuy</title>
+
+    <!-- Primary SEO Meta Tags -->
+    <title>Debmalya Biswas - Frontend & Full Stack Developer | SaffronStays SDE-1</title>
+    <meta name="title" content="Debmalya Biswas - Frontend & Full Stack Developer | SaffronStays SDE-1" />
     <meta
       name="description"
-      content="Hello there! I'm Debmalya Biswas, a seasoned frontend developer hailing from Kolkata. With a rich internship background at three distinguished companies, I currently contribute my skills as a frontend developer intern at Saffronstays. As a versatile freelance developer, I specialize in JavaScript, TypeScript, React, Next.js, SCSS, GoLang, HTML, and CSS. Let's craft compelling digital experiences together!"
+      content="Debmalya Biswas is a Frontend & Full Stack Developer (SDE-1) at SaffronStays. Achieved 25% increase in booking value, migrated APIs from Node.js to Go, and developed features like Web-Checkin, ticketing systems, and hotel search filters. Expert in Next.js, React, TypeScript, GoLang, Node.js, and MongoDB."
     />
     <meta
       name="keywords"
-      content="frontend developer, React, Next.js, JavaScript, TypeScript, SCSS, GoLang, HTML, CSS, Kolkata, Saffronstays"
+      content="Debmalya Biswas, debmalya biswas, debmalya biswas frontend, debmalya biswas frontend developer, debmalya biswas saffronstays, debmalya biswas full stack, debmalya biswas sde, debmalya biswas react, debmalya biswas developer, frontend developer, full stack developer, React developer, Next.js developer, TypeScript developer, GoLang developer, JavaScript developer, SaffronStays developer, Kolkata developer, web developer portfolio"
     />
     <meta name="author" content="Debmalya Biswas" />
+    <link rel="canonical" href="https://debmalya-portfolio.vercel.app/" />
 
-    <meta property="og:title" content="Db | theEngineerGuy" />
-    <meta
-      property="og:description"
-      content="Hello there! I'm Debmalya Biswas, a seasoned frontend developer hailing from Kolkata. With a rich internship background at three distinguished companies, I currently contribute my skills as a frontend developer intern at Saffronstays. As a versatile freelance developer, I specialize in JavaScript, TypeScript, React, Next.js, SCSS, GoLang, HTML, and CSS. Let's craft compelling digital experiences together!"
-    />
+    <!-- Open Graph / Facebook Meta Tags -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://debmalya-portfolio.vercel.app/" />
+    <meta property="og:site_name" content="Debmalya Biswas Portfolio" />
+    <meta property="og:title" content="Debmalya Biswas - Frontend & Full Stack Developer | SaffronStays SDE-1" />
+    <meta
+      property="og:description"
+      content="Debmalya Biswas is a Frontend & Full Stack Developer (SDE-1) at SaffronStays. Achieved 25% increase in booking value, migrated APIs from Node.js to Go, and developed features like Web-Checkin, ticketing systems, and hotel search filters. Expert in Next.js, React, TypeScript, GoLang, Node.js, and MongoDB."
+    />
     <meta
       property="og:image"
       content="https://i.ibb.co/wKRPv0g/screenshot.png"
     />
-    <meta property="og:image:alt" content="Db | theEngineerGuy" />
+    <meta property="og:image:alt" content="Debmalya Biswas - Frontend & Full Stack Developer Portfolio" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
 
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:title" content="Db | theEngineerGuy" />
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://debmalya-portfolio.vercel.app/" />
+    <meta name="twitter:title" content="Debmalya Biswas - Frontend & Full Stack Developer | SaffronStays SDE-1" />
     <meta
-      property="twitter:description"
-      content="Hello there! I'm Debmalya Biswas, a seasoned frontend developer hailing from Kolkata. With a rich internship background at three distinguished companies, I currently contribute my skills as a frontend developer intern at Saffronstays. As a versatile freelance developer, I specialize in JavaScript, TypeScript, React, Next.js, SCSS, GoLang, HTML, and CSS. Let's craft compelling digital experiences together!"
+      name="twitter:description"
+      content="Debmalya Biswas - SDE-1 at SaffronStays. Achieved 25% increase in booking value, migrated APIs to Go, developed Web-Checkin & ticketing systems. Expert in Next.js, React, TypeScript, GoLang, Node.js."
     />
     <meta
-      property="twitter:image"
+      name="twitter:image"
       content="https://i.ibb.co/wKRPv0g/screenshot.png"
     />
 
-    <meta name="robots" content="index, follow" />
+    <!-- Additional SEO Meta Tags -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="googlebot" content="index, follow" />
+    <meta name="bingbot" content="index, follow" />
     <meta name="language" content="English" />
     <meta name="revisit-after" content="7 days" />
+    <meta name="rating" content="general" />
+    <meta name="geo.region" content="IN-WB" />
+    <meta name="geo.placename" content="Kolkata" />
+    <meta name="geo.position" content="22.5726;88.3639" />
+    <meta name="ICBM" content="22.5726, 88.3639" />
+
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Debmalya Biswas",
+      "url": "https://debmalya-portfolio.vercel.app/",
+      "image": "https://i.ibb.co/wKRPv0g/screenshot.png",
+      "jobTitle": "SDE-1 (Software Development Engineer)",
+      "description": "Frontend & Full Stack Developer with expertise in Next.js, React, TypeScript, GoLang, and Node.js. Achieved 25% increase in booking value at SaffronStays through innovative features.",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "SaffronStays",
+        "url": "https://www.saffronstays.com/"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kolkata",
+        "addressRegion": "West Bengal",
+        "addressCountry": "IN"
+      },
+      "alumniOf": "Software Engineering",
+      "knowsAbout": ["Frontend Development", "Full Stack Development", "React", "Next.js", "TypeScript", "JavaScript", "GoLang", "Node.js", "MongoDB", "Web Development", "API Development", "Performance Optimization", "UI/UX Design"],
+      "sameAs": [
+        "https://github.com/AnTIdoTe003",
+        "https://www.linkedin.com/in/debmalya-biswas/"
+      ],
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Software Development Engineer",
+        "occupationLocation": {
+          "@type": "City",
+          "name": "Kolkata"
+        },
+        "skills": "React, TypeScript, GoLang, Node.js, MongoDB, Next.js, JavaScript, API Development"
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Debmalya Biswas Portfolio",
+      "url": "https://debmalya-portfolio.vercel.app/",
+      "description": "Portfolio website of Debmalya Biswas - Frontend & Full Stack Developer at SaffronStays",
+      "author": {
+        "@type": "Person",
+        "name": "Debmalya Biswas"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://debmalya-portfolio.vercel.app/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfilePage",
+      "dateCreated": "2023-01-01T00:00:00+00:00",
+      "dateModified": "2024-11-03T00:00:00+00:00",
+      "mainEntity": {
+        "@type": "Person",
+        "name": "Debmalya Biswas",
+        "alternateName": "theEngineerGuy",
+        "description": "Frontend & Full Stack Developer specializing in React, TypeScript, and GoLang",
+        "jobTitle": "SDE-1"
+      }
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
